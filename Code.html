@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hookup Lounge - Hotel Booking</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">Hookup Lounge</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#rooms">Rooms</a></li>
+        <li><a href="#booking">Booking</a></li>
+        <li><a href="#amenities">Amenities</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h1>Relax. Recharge. Reconnect.</h1>
+    <p>Book your stay at Hookup Lounge today.</p>
+    <button onclick="window.location.href='#booking'">Book Now</button>
+  </section>
+
+  <!-- Rooms Section -->
+  <section id="rooms">
+    <h2>Our Rooms</h2>
+    <div class="room">
+      <h3>Luxe Suite</h3>
+      <p>A spacious suite with a king-size bed, private balcony, and luxurious decor.</p>
+      <p>Price: $200 per night</p>
+    </div>
+    <div class="room">
+      <h3>Cozy Double</h3>
+      <p>Comfortable room with two queen beds and modern amenities.</p>
+      <p>Price: $130 per night</p>
+    </div>
+    <div class="room">
+      <h3>Standard Single</h3>
+      <p>A compact room for solo travelers with essential amenities.</p>
+      <p>Price: $80 per night</p>
+    </div>
+    <div class="room">
+      <h3>VIP Penthouse</h3>
+      <p>Exclusive penthouse suite with panoramic views and a jacuzzi.</p>
+      <p>Price: $500 per night</p>
+    </div>
+  </section>
+
+  <!-- Booking Section -->
+  <section id="booking">
+    <h2>Book Your Stay</h2>
+    <form>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" required>
+      <label for="email">Email Address</label>
+      <input type="email" id="email" required>
+      <label for="check-in">Check-in Date</label>
+      <input type="date" id="check-in" required>
+      <label for="check-out">Check-out Date</label>
+      <input type="date" id="check-out" required>
+      <label for="room">Room Type</label>
+      <select id="room" required>
+        <option value="luxe-suite">Luxe Suite</option>
+        <option value="cozy-double">Cozy Double</option>
+        <option value="standard-single">Standard Single</option>
+        <option value="vip-penthouse">VIP Penthouse</option>
+      </select>
+      <button type="submit">Submit Booking</button>
+    </form>
+  </section>
+
+  <!-- Amenities Section -->
+  <section id="amenities">
+    <h2>Hotel Amenities</h2>
+    <ul>
+      <li>Free Wi-Fi</li>
+      <li>24/7 Room Service</li>
+      <li>Fitness Center</li>
+      <li>On-site Bar & Lounge</li>
+      <li>Restaurant & Café</li>
+      <li>Outdoor Pool</li>
+      <li>Spa and Wellness Center</li>
+    </ul>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Welcome to Hookup Lounge, where comfort and style meet. We offer an upscale yet affordable getaway for business and leisure travelers alike.</p>
+  </section>
+
+  <!-- Contact Us Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@hookuplounge.com</p>
+    <p>Phone: +[Phone Number]</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Hookup Lounge Hotel. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
